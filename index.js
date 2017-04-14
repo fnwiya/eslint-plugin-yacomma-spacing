@@ -1,5 +1,5 @@
 module.exports = {
 	rules: {
-		yacamelcase: require('./rules/yacomma-spacing')
+		'yacomma-spacing': require('./rules/yacomma-spacing')
 	}
 };
