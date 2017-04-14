@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-yacomma-spacing",
+  "version": "1.0.0",
+  "author": "kohno",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.fdev/misc/eslint-plugin-yacomma-spacing.git"
+  },
+  "dependencies": {
+    "eslint": "^3.14.1",
+    "espree": "^3.4.0",
+    "esutils": "^2.0.2"
+  }
+}
