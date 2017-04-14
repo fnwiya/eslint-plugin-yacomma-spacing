@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "author": "kohno",
   "scripts": {
+    "test": "mocha --timeout 5000 ./tests/*.js",
+    "test:ci": "JUNIT_REPORT_PATH=mocha-test-results.xml mocha --colors --reporter mocha-jenkins-reporter --timeout 5000 ./tests/*.js"
   },
   "repository": {
     "type": "git",
@@ -12,5 +14,9 @@
     "eslint": "^3.14.1",
     "espree": "^3.4.0",
     "esutils": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "mocha-jenkins-reporter": "^0.3.7"
   }
 }
