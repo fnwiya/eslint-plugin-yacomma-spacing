@@ -29,9 +29,9 @@ yacomma-spacingではignoreIfFirstTokenOfLineオプションを設定するこ�
 ---
 plugins:
   - yacomma-spacing
+rules:
   comma-spacing:
     - off
-rules:
   yacomma-spacing/yacomma-spacing:
     - warn
     - before: false
