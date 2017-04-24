@@ -1,6 +1,6 @@
 /**
- * @fileoverview Comma spacing - validates spacing before and after comma
- * @author Vignesh Anand aka vegetableman.
+ * @fileoverview Yet another comma spacing
+ * @author kohno
  */
 "use strict";
 

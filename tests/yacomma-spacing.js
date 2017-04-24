@@ -1,6 +1,6 @@
 /**
  * @fileoverview tests to validate spacing before and after comma.
- * @author Vignesh Anand.
+ * @author kohno
  */
 "use strict";
 
